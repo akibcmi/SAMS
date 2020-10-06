@@ -134,7 +134,10 @@ def create_checkpointer(opts , logger):
         return None
 
 def create_models(opts,train_opts,embeddings,checkpointer,logger):
-    model = BiaffineSegmentationModel(train_opts.dim,train_opts.layer,train_opts.head,train_opts.ff,train_opts.dropout,embeddings,train_opts.window,train_opts.norm_after,train_opts.seglayers)
+    model = BiaffineSegmentationModel(train_opts.dim,train_opts.layer,train_opts.head,train_opts.ff,train_opts.dropout,embeddings,train_opts.window,train_opts.norm_after,train_opts.seglayers,
+                                      train_opts.segwords,
+                                      train_opts.middecode,
+                                      train_opts.gate)
 
     model.load_state_dict(checkpointer["model"],strict=False)
     if opts.gpu and torch.cuda.is_available():

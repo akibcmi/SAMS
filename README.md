@@ -1,11 +1,6 @@
 # Self-Attention Model for Segmentation (SAMS)
 This is a Python implementation of the CWS described in "Attention is All You Need for Chinese Word Segmentation"
 
-##Contents
-[Requirements](#Requirements)
-[Training](#Training)
-[Citation](#Citation)
-[Credits](#Credits)
 
 ## Requirements
 * Python 3.6
@@ -18,8 +13,8 @@ This is a Python implementation of the CWS described in "Attention is All You Ne
 ## Training
 ### Data
 Training dataset is from [SIGHAN05](http://sighan.cs.uchicago.edu/bakeoff2005/). There are four datasets:
-|Corpus|Encoding|Word Types|Words|Character|Types|Characters|
-|---|---|---|---|---|---|---|
+|Corpus|Encoding|Word Types|Words|Character Types|Characters|
+|---|---|---|---|---|---|
 |Peking University (PKU)|CP936/Unicode|55,303|1,109,947|4,698|1,826,448|
 |Microsoft Research (MSR)|CP936/Unicode|88,119|2,368,391|5,167|4,050,469|
 |Academia Sinica (AS)|CP936/Unicode|141,340|5,449,698|6,117|8,368,050|

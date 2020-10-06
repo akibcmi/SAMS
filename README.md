@@ -17,7 +17,7 @@ Training dataset is from [SIGHAN05](http://sighan.cs.uchicago.edu/bakeoff2005/).
 |---|---|---|---|---|---|
 |Peking University (PKU)|CP936/Unicode|55,303|1,109,947|4,698|1,826,448|
 |Microsoft Research (MSR)|CP936/Unicode|88,119|2,368,391|5,167|4,050,469|
-|Academia Sinica (AS)|CP936/Unicode|141,340|5,449,698|6,117|8,368,050|
+|Academia Sinica (AS)|Unicode/Big Five Plus|141,340|5,449,698|6,117|8,368,050|
 |City University of Hong Kong (CITYU)|HKSCS Unicode/Big Five|69,085|1,455,629|4,923|2,403,355|
 
 ### Training Instructions

@@ -31,7 +31,7 @@ class CalculatePRF(object):
         ingold = cous["ingold"]
 
         ovright = cous["ovright"]
-        ovgo:ld = cous["ovgold"]
+        ovgold = cous["ovgold"]
 
         sens = []
 

@@ -158,3 +158,17 @@ to get score.
 ## Sequence Labeling
 Coming soon.
 
+## Citation
+If you use this software for research, please cite our paper as follows:
+```
+@inproceedings{duan-zhao-2020-attention,
+    title = "Attention Is All You Need for {C}hinese Word Segmentation",
+    author = "Duan, Sufeng  and Zhao, Hai",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    pages = "3862--3872"
+}
+```
